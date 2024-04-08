@@ -1,0 +1,6 @@
+.admin__menu .level-0.item-menu_id > a:before {
+    content: url('../images/icon.png');
+}
+li#menu-drazulay_base-menu_id > a > span {
+    display: none;
+}

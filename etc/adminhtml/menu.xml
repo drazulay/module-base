@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Drazulay_Base::menu" title="Drazulay" module="Drazulay_Base" sortOrder="99" resource="Drazulay_Base::menu"/>
+        <add id="Drazulay_Base::menu_config" title="Configuration" module="Drazulay_Base" sortOrder="99" parent="Drazulay_Base::menu" action="adminhtml/system_config/edit/section/drazulay_base" resource="Drazulay_Base::config"/>
+    </menu>
+</config>

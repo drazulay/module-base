@@ -1,0 +1,24 @@
+{
+    "name": "drazulay/module-base",
+    "description": "Add your description here",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Daniel R. Azulay",
+            "email":"daniel@danielazulay.eu"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Drazulay\\Base\\": ""
+        }
+    }
+}
