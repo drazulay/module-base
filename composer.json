@@ -1,6 +1,6 @@
 {
     "name": "drazulay/module-base",
-    "description": "Add your description here",
+    "description": "Base module for Magento 2 with a menu icon and some system configuration options.",
     "type": "magento2-module",
     "license": [
         "proprietary"
